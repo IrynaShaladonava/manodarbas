@@ -1,0 +1,66 @@
+/*header*/
+
+header{
+    
+    background-color: rgb(173, 216, 156);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+header.logo{
+    width: 200px;
+}
+header.logo img{
+    max-width: 100%;
+}
+
+/*navigacija*/
+
+nav{
+    background-color: rgb(225, 240, 225);
+}
+nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    list-style: none;
+    padding: 5px;
+    background-color: rgb(0, 255, 13);
+    margin: 5px;
+    flex-grow: 1;
+    text-align:center;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: yellow;
+}
+
+/*content*/
+
+main{
+    display: flex;
+    background-color: aqua;
+}
+main .content{
+    background-color: rgb(210, 216, 205);
+    flex-grow: 2;
+    padding: 20px;
+}
+main aside{
+    background-color: rgb(185, 185, 236);
+    padding: 10px;
+}
+
+/*footer aukstis fono spalva ir centravimas*/
+footer{
+    height: 50px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
